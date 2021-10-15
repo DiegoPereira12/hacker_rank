@@ -20,14 +20,10 @@ Print the following:
 
 if __name__ == '__main__' :
 
-    a = 3 
-    b = 2
+   if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
 
-    soma = a + b
-    print(soma)
-
-    diminuir = a - b
-    print(diminuir)
-
-    multiplicar = a * b
-    print(multiplicar)
+    print(a + b)
+    print(a - b)
+    print(a * b)
